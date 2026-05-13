@@ -51,7 +51,7 @@ A full-stack machine learning platform that predicts real estate investment prof
 ### DevOps
 - Docker & Docker Compose
 - GitHub Actions (CI/CD)
-- AWS / IBM Cloud ready
+- AWS 
 
 ## 📊 ML Model Features
 
@@ -229,12 +229,6 @@ cd infrastructure
 cdk deploy
 ```
 
-### IBM Cloud Deployment
-```bash
-ibmcloud login
-ibmcloud target --cf
-ibmcloud cf push
-```
 
 ### Vercel (Frontend)
 ```bash
